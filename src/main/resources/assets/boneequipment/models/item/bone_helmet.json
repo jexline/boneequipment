@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-    "layer0": "boneequipment:items/bone_helm"
+    "layer0": "boneequipment:item/bone_helm"
     }
 }

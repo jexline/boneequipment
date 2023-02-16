@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-    "layer0": "boneequipment:items/bone_horse_armor"
+    "layer0": "boneequipment:item/bone_horse_armor"
     }
 }
