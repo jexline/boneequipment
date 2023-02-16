@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "boneequipment:bone_axe_recipe",
+      "boneequipment:bone_shovel_recipe",
+      "boneequipment:bone_sword_recipe",
+      "boneequipment:bone_pick_recipe",
+      "boneequipment:bone_hoe_recipe",
+      "boneequipment:bone_hammer_recipe",
+      "boneequipment:bone_boots_recipe",
+      "boneequipment:bone_chestplate_recipe",
+      "boneequipment:bone_leggings_recipe",
+      "boneequipment:bone_helmet_recipe",
+      "boneequipment:bone_horse_armor_recipe"
+    ]
+  },
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingredient"
+    ]
+  ]
+}

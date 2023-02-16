@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "boneequipment",
+  "version": "1.0.5",
+
+  "name": "Bone Equipment",
+  "description": "This mod adds bone tools and armor!",
+  "authors": [
+    "Exline"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/bone-equipment",
+    "issues": "https://github.com/jexline/exline-mods-issues/issues"
+  },
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/boneequipment/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.exline.boneequipment.BoneEquipmentMain"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
